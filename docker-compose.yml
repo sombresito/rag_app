@@ -13,6 +13,8 @@ services:
     environment:
       - QDRANT_HOST=qdrant
       - QDRANT_PORT=6333
+    env_file:
+      - .env
     volumes:
       - ./data:/app/data
       - ./local_models:/app/local_models
