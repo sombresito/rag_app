@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+requests
+transformers
+torch
+qdrant-client
+numpy
